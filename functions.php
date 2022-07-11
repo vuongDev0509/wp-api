@@ -31,6 +31,7 @@ function v3_landing_register_api_hooks() {
 	) );
 }
 
+// get data from theme options
 function v3_landing_get_options(){
 	return array(
 		'general'       => __general(),
